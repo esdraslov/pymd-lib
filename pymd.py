@@ -25,3 +25,6 @@ class commander:
 
   def setup(self, command):
     software.system(command)
+
+def ipconfig():
+  software.system("ipconfig")
