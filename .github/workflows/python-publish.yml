@@ -27,8 +27,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v3
-      with:
-        python-version: ${{ matrix.python-version }}
     - name: install package
       run: pip install pymd
     - name: Build package
