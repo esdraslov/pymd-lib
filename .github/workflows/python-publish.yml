@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        python-version: ["3.x", "2.x"]
+        python-version: "2.x"
 
     steps:
     - uses: actions/checkout@v3
